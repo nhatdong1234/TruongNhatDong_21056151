@@ -1,17 +1,38 @@
-
-
-.item{
-    width: 98px;
+#container{
     display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-direction: column;
-
-    
-
+    width: 1500px;
 }
-.item1{
+#left{
+    width: 125px;
+    height: 720px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+   
+    flex-direction: column;
     
+}
+.left1{
+   
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+}
+.center{
+    width: 900px;
+
+}
+.right{
+    width: 500px;
+}
+.swapper{
+    display: flex;
+    justify-content: center;
+}
+.div{
+  
+    display: flex;
+   
+    flex-direction: column;
 }
